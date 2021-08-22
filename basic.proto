@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "github.com/evanmoncuso/grpc-basics/basics";
+
+package basics;
+
+message NoParams {}
+
+message Greeting {
+  string body = 1;
+}
+
+service Basic {
+  rpc GetWelcome(NoParams) returns (Greeting) {}
+}
