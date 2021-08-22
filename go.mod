@@ -1,4 +1,4 @@
-module github.com/evanmoncuso/grpc-basics/basics
+module github.com/evanmoncuso/basics
 
 go 1.16
 
