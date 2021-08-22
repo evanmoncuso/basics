@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/evanmoncuso/grpc-basics/basics";
+option go_package = "github.com/evanmoncuso/basics";
 
 package basics;
 
